@@ -186,8 +186,8 @@ header video {
     top: 0;
     z-index: 100;
 }
-
-#portafolio button {
+/* button por a */
+#portafolio a {
     display: block;
     position: relative;
     margin: 1rem auto;
@@ -204,13 +204,13 @@ header video {
     max-height: 300px;
     transition: transform ease .3s;
 }
-
-#portafolio button:hover img {
+/*button por a*/
+#portafolio a:hover img {
     transform: scale(1.25);
 }
 
 
-#portafolio button:before {
+#portafolio a:before {
     content: '';
     background-color: var(--primary);
     width: 100%;
@@ -223,7 +223,7 @@ header video {
     opacity: 0;
 }
 
-#portafolio button:hover:before {
+#portafolio a:hover:before {
     opacity: 0.75;
 }
 
@@ -238,14 +238,15 @@ header video {
     color: var(--white);
     opacity: 0;
     transition: bottom ease .3s, opacity ease .3s;
+    cursor: pointer;
 }
 
-#portafolio button:hover h4 {
+#portafolio a:hover h4 {
     bottom: 30%;
     opacity: 1;
 }
 
-#portafolio button:after {
+#portafolio a:after {
     content: url("C:/Users/alexm/OneDrive/Escritorio/Academia X/Clase Maestra de HTML/11 Proyecto/02 Implementación de HTML/portafolio/html/assets/img/icons/zoom.svg");
     width: 50%;
     position: absolute;
@@ -257,7 +258,7 @@ header video {
     transition: top ease .3s, opacity ease .3s;
 }
 
-#portafolio button:hover:after {
+#portafolio a:hover:after {
     top: 40%;
     opacity: .75;
 }
@@ -293,8 +294,8 @@ header video {
 }
 
 #skillset > div > div:nth-child(5) {
-    padding: 42px;
     position: relative;
+    top: 50px;
 }
   
 #skillset span {
