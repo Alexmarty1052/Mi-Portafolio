@@ -371,7 +371,7 @@ textarea:focus {
 
 
 textarea {
-    resize: none
+    resize: none;
 }
 
 form button {
